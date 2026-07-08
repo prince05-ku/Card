@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 20px;
+    
+}
+
+.cont {
+    height: 400px;
+    width: 250px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 10px 0px #a09f9fe7;
+}
+
+p {
+    display: inline-block;
+    margin-top: 50px;
+    padding: 50px;
+    background-color: brown;
+    border-radius: 100px;
+    font-size: 30px;
+}
+
+h1 {
+    padding: 50px;
+}
