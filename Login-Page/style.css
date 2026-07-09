@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to right, #ffbb94, #fb9590, #dc586d, #a3375f, #852e4e, #ac1d3d);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.login-container {
+    height: 300px;
+    width: 300px;
+    background-color: #ac1d3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    gap: 20px;
+}
