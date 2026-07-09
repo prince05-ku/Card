@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>White Shadow Cards</title>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 40px;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+  }
+
+  .card {
+    background-color: #ffffff;
+    width: 260px;
+    border-radius: 16px;
+    padding: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+  }
+
+  .card img {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+
+  .card h3 {
+    color: #222;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  .card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+</style>
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="icon">
+      <h3>Design</h3>
+      <p>Clean aur simple design jisse content clearly dikhta hai.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721295.png" alt="icon">
+      <h3>Performance</h3>
+      <p>Fast loading aur smooth experience har device pe.</p>
+    </div>
+
+    <div class="card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="icon">
+      <h3>Security</h3>
+      <p>Aapka data hamesha safe aur protected rehta hai.</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
